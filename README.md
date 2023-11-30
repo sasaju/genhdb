@@ -11,4 +11,4 @@ https://jerkwin.github.io/2017/09/20/GROMACS%E9%9D%9E%E6%A0%87%E5%87%86%E6%AE%8B
 ```
 run /xxx/xxx/xxx/genhdb.py
 ```
-![Alt text](image-1.png)
+![Alt text](image.png)
