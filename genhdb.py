@@ -86,7 +86,7 @@ for atom_index in cmd.index(selection="(weight_atoms)"):
             temp_atoms = cmd.get_model("bound_to temp_single_atom").atom
             temp_wg_atoms = [ atom for atom in temp_atoms if atom.name[0]!="H"]
             k_atom = temp_wg_atoms[0].name
-            single_hbd = HdbLine(bond_type, h_nums, h_atoms[0].name[0:2],i_atom, j_atom, k_atom, l_atom)
+            single_hbd = HdbLine(bond_type, h_nums, h_atoms[0].name,i_atom, j_atom, k_atom, l_atom)
             print(single_hbd.gen_hdb())
     if h_nums == 3:
         i_atom = single_atom_info.name
