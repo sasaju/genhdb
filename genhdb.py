@@ -116,6 +116,7 @@ def genhdb():
     else:
         print("Can't find correct atom.未找到相关原子。")
 
+
 cmd.extend("genhdb", genhdb)
 # 一个H：确认只与一个氢相连
 # 如果某重原子周围只与2个重原子相连，则类型必为1
