@@ -1,0 +1,7 @@
+CGU   6
+  1       1       H    N       CA      C_
+  1       5       HA   CA      N       C       CB
+  2       6       HB   CB      CA      CG
+  1       5       HG   CG      CB      CD1     CD2
+  1       2       HE1  OE12    CD1     CG
+  1       2       HE2  OE22    CD2     CG
